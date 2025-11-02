@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="it">
   <head>
     <!-- =========================
 Head links 
@@ -7,16 +7,7 @@ Head links
 
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="title" content="NextSaaS - Software, SaaS & Startup Tailwind Template" />
-<meta
-  name="description"
-  content="NextSaaS - the ultimate collection of 35+ premium HTML templates for SaaS businesses and startups. Built with Tailwind CSS, featuring responsive design, authentication flows, pricing pages, and modern UI components. Perfect for web applications and digital products."
-/>
-<meta
-  name="keywords"
-  content="SaaS templates, HTML templates, Tailwind CSS templates, startup templates, web application templates, responsive design, authentication pages, pricing pages, modern UI, NextSaaS, business templates, landing page templates, React templates"
-/>
-<meta name="author" content="NextSaaS" />
+<!-- Per-page title/description/OG/Twitter vengono definiti nelle singole pagine -->
 <meta
   name="robots"
   content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
@@ -24,11 +15,7 @@ Head links
 <meta name="googlebot" content="index, follow" />
 <meta name="bingbot" content="index, follow" />
 
-<meta name="language" content="English" />
-<meta name="geo.region" content="US" />
-<meta name="geo.placename" content="United States" />
-
-<link rel="canonical" href="https://next-sass-html.vercel.app/" />
+<!-- Rimuoviamo canonical globale: impostare canonical per-pagina con il dominio reale -->
 
 <!-- Additional SEO Meta Tags -->
 <meta name="rating" content="General" />
@@ -36,41 +23,11 @@ Head links
 <meta name="revisit-after" content="7 days" />
 <meta name="expires" content="never" />
 
-<!-- Open Graph / Facebook -->
+<!-- OG/Twitter verranno impostati per-pagina. Manteniamo solo le basi -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://next-sass-html.vercel.app/" />
-<meta property="og:title" content="NextSaaS - Software, SaaS & Startup Tailwind Template" />
-<meta
-  property="og:description"
-  content="NextSaaS - the ultimate collection of 35+ premium HTML templates for SaaS businesses and startups. Built with Tailwind CSS, featuring responsive design, authentication flows, pricing pages, and modern UI components."
-/>
-<meta
-  property="og:image"
-  content="https://images.prismic.io/staticmania/aPD-K55xUNkB2D2X_og-image.jpg"
-/>
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:image:alt" content="NextSaaS - Software, SaaS & Startup Tailwind Template" />
-<meta property="og:site_name" content="NextSaaS" />
-<meta property="og:locale" content="en_US" />
-<meta property="article:author" content="NextSaaS" />
-<meta property="article:publisher" content="NextSaaS" />
 
-<!-- Twitter -->
+<!-- Twitter base -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@NextSaaS" />
-<meta name="twitter:creator" content="@NextSaaS" />
-<meta name="twitter:url" content="https://next-sass-html.vercel.app/" />
-<meta name="twitter:title" content="NextSaaS - Software, SaaS & Startup Tailwind Template" />
-<meta
-  name="twitter:description"
-  content="NextSaaS - the ultimate collection of 35+ premium HTML templates for SaaS businesses and startups. Built with Tailwind CSS, featuring responsive design, authentication flows, pricing pages, and modern UI components."
-/>
-<meta
-  name="twitter:image"
-  content="https://images.prismic.io/staticmania/aPD-K55xUNkB2D2X_og-image.jpg"
-/>
-<meta name="twitter:image:alt" content="NextSaaS - Software, SaaS & Startup Tailwind Template" />
 
 <!-- Additional SEO Meta Tags -->
 <meta name="theme-color" content="#000000" />
@@ -97,7 +54,23 @@ Head links
   rel="stylesheet"
 />
 
-    <title>Contact us page - NextSaaS</title>
+    <title>Contatti | MSS GROUP SARL â€” Richiedi Informazioni</title>
+    <meta name="description" content="Contatta MSS GROUP SARL per consulenza e sviluppo software su misura. Compila il form: rispondiamo rapidamente con supporto professionale." />
+    <meta property="og:title" content="Contatti | MSS GROUP SARL" />
+    <meta property="og:description" content="Contattaci per consulenza e sviluppo software su misura." />
+    <meta property="og:url" content="https://www.msstn.net/contatti" />
+    <meta name="twitter:title" content="Contatti | MSS GROUP SARL" />
+    <meta name="twitter:description" content="Contattaci per consulenza e sviluppo software su misura." />
+    <meta name="twitter:url" content="https://www.msstn.net/contatti" />
+    <link rel="canonical" href="https://www.msstn.net/contatti" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Contatti | MSS GROUP SARL",
+      "inLanguage": "it-IT"
+    }
+    </script>
     
     <link rel="stylesheet" href="./assets/main.css">
   </head>
@@ -139,6 +112,21 @@ Header v1
           </a>
         </li>
         <li class="py-2.5">
+          <a href="./index.html#servizi" class="nav-item-link {=$nav-item-class}">
+            <span>Servizi</span>
+          </a>
+        </li>
+        <li class="py-2.5">
+          <a href="./index.html#partner" class="nav-item-link {=$nav-item-class}">
+            <span>Essere partner</span>
+          </a>
+        </li>
+        <li class="py-2.5">
+          <a href="./index.html#legacy" class="nav-item-link {=$nav-item-class}">
+            <span>Mondo legacy</span>
+          </a>
+        </li>
+        <li class="py-2.5">
           <a href="./about-page-01.html" class="nav-item-link {=$nav-item-class}">
             <span>Chi siamo</span>
           </a>
@@ -151,7 +139,12 @@ Header v1
       </ul>
     </nav>
 
-    <div class="xl:flex hidden items-center justify-center">
+    <div class="xl:flex hidden items-center justify-center gap-3">
+      <nav aria-label="Language switcher" class="hidden flex items-center gap-1 text-sm">
+        <a href="/" class="px-2 py-1 rounded-md bg-background-4 dark:bg-background-6 hover:bg-background-3">IT</a>
+        <span class="opacity-40">/</span>
+        <a href="/en/" class="px-2 py-1 rounded-md bg-background-4 dark:bg-background-6 hover:bg-background-3">EN</a>
+      </nav>
       <a href="./contact-us-page.html" class="btn btn-md btn-primary hover:btn-secondary dark:hover:btn-accent">
         <span>Contattaci</span>
       </a>
@@ -195,12 +188,39 @@ Mobile Menu
       </button>
     </div>
     <div class="h-[85vh] w-full overflow-y-auto overflow-x-hidden pb-10 scroll-bar">
+      <!-- Language switcher hidden for now -->
+      <div class="hidden flex items-center gap-2 px-4 py-2">
+        <span class="text-sm opacity-60">Language:</span>
+        <a href="/" class="px-2 py-1 rounded-md bg-background-4 dark:bg-background-6">IT</a>
+        <a href="/en/" class="px-2 py-1 rounded-md bg-background-4 dark:bg-background-6">EN</a>
+      </div>
       <ul class="space-y-2">
         <li>
           <a
             href="./index.html"
             class="w-full block px-4 py-3 rounded-xl bg-background-3 dark:bg-background-9 text-secondary dark:text-accent font-medium"
             >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="./index.html#servizi"
+            class="w-full block px-4 py-3 rounded-xl bg-background-3 dark:bg-background-9 text-secondary dark:text-accent font-medium"
+            >Servizi</a
+          >
+        </li>
+        <li>
+          <a
+            href="./index.html#partner"
+            class="w-full block px-4 py-3 rounded-xl bg-background-3 dark:bg-background-9 text-secondary dark:text-accent font-medium"
+            >Essere partner</a
+          >
+        </li>
+        <li>
+          <a
+            href="./index.html#legacy"
+            class="w-full block px-4 py-3 rounded-xl bg-background-3 dark:bg-background-9 text-secondary dark:text-accent font-medium"
+            >Mondo legacy</a
           >
         </li>
         <li>
@@ -960,3 +980,4 @@ Theme Toggle Button
 
   </body>
 </html>
+

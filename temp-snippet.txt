@@ -1,0 +1,13 @@
+<!-- ===============
+  Termini di Utilizzo
+  ==================== -->
+
+<section class="pb-14 md:pb-16 lg:pb-[88px] xl:pb-[200px] pt-[100px]">
+  <div class="main-container">
+    <div data-ns-animate data-delay="0.3" class="space-y-3">
+      <h2>Termini di Utilizzo</h2>
+      <p class="text-stroke-9/60">Ultimo aggiornamento: 03/11/2025</p>
+      <div class="space-y-7">
+        <p>
+          Benvenuto sul sito di MSS GROUP SARL ("noi", "nostro", "la Società"). Accedendo e utilizzando questo sito web, l’utente ("tu", "utente") accetta i presenti Termini di Utilizzo. Se non sei d'accordo, è consigl
+

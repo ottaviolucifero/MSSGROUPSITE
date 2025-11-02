@@ -9,13 +9,14 @@ Hero section
       class="bg-linear-[180deg,_#B3C3DA_0%,_#93A5BE_100%] overflow-hidden rounded-[20px] relative top-4 lg:top-8 h-auto"
     >
       <figure
-        class="absolute top-8 right-6 sm:right-12 lg:right-16 max-w-[280px] sm:max-w-[320px] opacity-70 pointer-events-none select-none z-0"
+        class="hidden md:block absolute top-8 right-6 sm:right-12 lg:right-16 max-w-[280px] sm:max-w-[320px] opacity-70 pointer-events-none select-none z-0"
         aria-hidden="true"
       >
         <img
           src="images/home-page-17/logo_mss_group_transparent.png"
           alt="Decorative background pattern"
           class="w-full h-auto object-contain"
+          loading="lazy" decoding="async"
         />
       </figure>
       <div class="main-container relative z-10">
@@ -52,11 +53,16 @@ Hero section
             </div>
           </div>
           <figure class="max-w-[643px] w-full" data-ns-animate data-delay="0.9" data-offset="50">
+          <picture>
+            <source type="image/webp" srcset="images/home-page-17/hero-thumbnail.webp" />
             <img
-              src="images/home-page-17/hero-thumbnail.png"
+              src="images/home-page-17/hero-thumbnail.webp"
               alt="App showcase illustration"
               class="size-full object-cover"
+              fetchpriority="high" decoding="async"
+              width="1280" height="800"
             />
+          </picture>
           </figure>
         </div>
       </div>
@@ -73,72 +79,72 @@ Hero section
       role="list"
     >
       <figure role="listitem" class="lg:min-w-36 lg:ml-8">
-        <img
+        <img loading="lazy" decoding="async"
           src="images/icons/crai_gray.png"
           alt="Client company logo 1"
           class="inline-block dark:hidden max-h-10 w-auto object-contain"
         />
-        <img
+        <img loading="lazy" decoding="async"
           src="images/icons/crai_gray.png"
           alt="Client company logo 1"
           class="hidden dark:inline-block max-h-10 w-auto object-contain"
         />
       </figure>
       <figure role="listitem" class="lg:min-w-36">
-        <img
+        <img loading="lazy" decoding="async"
           src="images/icons/Retex_gray.png"
           alt="Client company logo 2"
           class="inline-block dark:hidden max-h-10 w-auto object-contain"
         />
-        <img
+        <img loading="lazy" decoding="async"
           src="images/icons/Retex_gray.png"
           alt="Client company logo 2"
           class="hidden dark:inline-block max-h-10 w-auto object-contain"
         />
       </figure>
       <figure role="listitem" class="lg:min-w-36">
-        <img
+        <img loading="lazy" decoding="async"
           src="images/icons/coop_italia_gray.png"
           alt="Client company logo 3"
           class="inline-block dark:hidden max-h-10 w-auto object-contain"
         />
-        <img
+        <img loading="lazy" decoding="async"
           src="images/icons/coop_italia_gray.png"
           alt="Client company logo 3"
           class="hidden dark:inline-block max-h-10 w-auto object-contain"
         />
       </figure>
       <figure role="listitem" class="lg:min-w-36">
-        <img
+        <img loading="lazy" decoding="async"
           src="images/icons/arkopharma_gray.png"
           alt="Client company logo 4"
           class="inline-block dark:hidden max-h-10 w-auto object-contain"
         />
-        <img
+        <img loading="lazy" decoding="async"
           src="images/icons/arkopharma_gray.png"
           alt="Client company logo 4"
           class="hidden dark:inline-block max-h-10 w-auto object-contain"
         />
       </figure>
       <figure role="listitem" class="lg:min-w-36">
-        <img
+        <img loading="lazy" decoding="async"
           src="images/icons/igesa_gray.png"
           alt="Client company logo 5"
           class="inline-block dark:hidden max-h-10 w-auto object-contain"
         />
-        <img
+        <img loading="lazy" decoding="async"
           src="images/icons/igesa_gray.png"
           alt="Client company logo 5"
           class="hidden dark:inline-block max-h-10 w-auto object-contain"
         />
       </figure>
       <figure role="listitem" class="lg:min-w-36">
-        <img
+        <img loading="lazy" decoding="async"
           src="images/icons/GAB_TAMAGNINI_gray.png"
           alt="Client company logo 6"
           class="inline-block dark:hidden max-h-10 w-auto object-contain"
         />
-        <img
+        <img loading="lazy" decoding="async"
           src="images/icons/GAB_TAMAGNINI_gray.png"
           alt="Client company logo 6"
           class="hidden dark:inline-block max-h-10 w-auto object-contain"
