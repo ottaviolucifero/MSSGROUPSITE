@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <Component src="src/components/shared/head-links.htm" />
+    <title>Blog page 03 - NextSaaS</title>
+  </head>
+  <body class="bg-background-3 dark:bg-background-5">
+    <Component
+      src="src/components/shared/header-one.htm"
+      class="border border-stroke-2 bg-accent/60 top-5 dark:border-stroke-6 dark:bg-background-9 backdrop-blur-[25px]"
+      btn-class="btn-primary hover:btn-secondary dark:hover:btn-accent"
+    />
+    <main>
+      <Component
+        src="src/components/shared/page-hero.htm"
+        class="pt-24 md:pt-36 lg:pt-44 xl:pt-[250px]"
+        title="Blog List"
+        heading="Blog-03"
+      />
+      <Component src="src/components/pages/blog-page-03/blog-list.htm" />
+      <Component
+        src="src/components/shared/cta/cta-v1.htm"
+        class="dark:bg-background-7 bg-white"
+        badge-class="badge-yellow-v2"
+        badge-text="Get started"
+        span-class="hidden"
+        cta-heading="Build a complete website using the assistance"
+        description="Start your free trial today and see your ideas come to life easily and creatively."
+        cta-btn-text="Get started"
+      />
+    </main>
+
+    <Component src="src/components/shared/footer-three.htm" />
+  </body>
+</html>

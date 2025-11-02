@@ -1,0 +1,14 @@
+{
+    "name":  "mss-site",
+    "private":  true,
+    "type":  "module",
+    "dependencies":  {
+                         "nodemailer":  "^6.9.0",
+                         "dotenv":  "^16.4.5"
+                     },
+    "scripts":  {
+                    "preview":  "vite preview",
+                    "build":  "vite build",
+                    "dev":  "vite"
+                }
+}

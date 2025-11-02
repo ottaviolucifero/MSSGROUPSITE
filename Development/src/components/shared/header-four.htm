@@ -1,0 +1,168 @@
+<!-- =========================
+Header v4
+===========================-->
+<header class="header-four px-12 flex items-center fixed top-3 md:top-0 left-0 w-full z-50">
+  <div
+    data-ns-animate
+    data-delay="0.1"
+    data-direction="up"
+    class="max-w-[1920px] mx-auto w-full flex items-center justify-between"
+  >
+    <div>
+      <a href="./">
+        <span class="sr-only">Home</span>
+        <img src="./images/shared/logo-green.svg" alt="NextSass" />
+      </a>
+    </div>
+    <div class="flex items-center gap-[76px]">
+      <nav class="hidden xl:flex items-center">
+        <ul class="flex items-center gap-6">
+          <li class="relative nav-item cursor-pointer py-6" data-menu="home-mega-menu">
+            <a href="#" class="nav-item-link-white">
+              <span>Home</span>
+              <span
+                class="nav-arrow block origin-center transition-all duration-300 translate-y-px"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </span>
+            </a>
+            <Component src="src/components/shared/home-mega-menu.htm" />
+          </li>
+          <li class="relative nav-item cursor-pointer py-6" data-menu="pages-mega-menu">
+            <a href="#" class="nav-item-link-white">
+              <span>Pages</span>
+              <span
+                class="nav-arrow block origin-center transition-all duration-300 translate-y-px"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </span>
+            </a>
+            <Component src="src/components/shared/pages-mega-menu.htm" />
+          </li>
+          <li class="relative nav-item cursor-pointer py-6" data-menu="about-menu">
+            <a href="#" class="nav-item-link-white">
+              <span>About</span>
+              <span
+                class="nav-arrow block origin-center transition-all duration-300 translate-y-px"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </span>
+            </a>
+            <Component src="src/components/shared/about-menu.htm" />
+          </li>
+          <li class="relative nav-item cursor-pointer py-6" data-menu="services-menu">
+            <a href="#" class="nav-item-link-white">
+              <span>Services</span>
+              <span
+                class="nav-arrow block origin-center transition-all duration-300 translate-y-px"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </span>
+            </a>
+            <Component src="src/components/shared/services-menu.htm" />
+          </li>
+          <li class="relative nav-item cursor-pointer py-6" data-menu="blog-menu">
+            <a href="#" class="nav-item-link-white">
+              <span>Blog</span>
+              <span
+                class="nav-arrow block origin-center transition-all duration-300 translate-y-px"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </span>
+            </a>
+            <Component src="src/components/shared/blog-menu.htm" />
+          </li>
+          <li class="py-6">
+            <a href="./contact-us-page.html" class="nav-item-link-white"> Contact Us </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="flex items-center gap-2">
+        <div class="sm:block hidden">
+          <a
+            href="./signup-page-01.html"
+            class="btn btn-green hover:btn-secondary dark:hover:btn-white-dark btn-md"
+          >
+            <span>Get started</span>
+          </a>
+        </div>
+        <div class="xl:hidden block">
+          <button
+            class="nav-hamburger flex flex-col gap-1.5 size-12 bg-background-4 dark:bg-background-7 rounded-full items-center justify-center cursor-pointer"
+          >
+            <span class="sr-only">Menu</span>
+            <span class="block w-6 h-0.5 bg-stroke-9 dark:bg-stroke-1"></span>
+            <span class="block w-6 h-0.5 bg-stroke-9 dark:bg-stroke-1"></span>
+            <span class="block w-6 h-0.5 bg-stroke-9 dark:bg-stroke-1"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <Component src="src/components/shared/mobile-menu.htm" />
+</header>

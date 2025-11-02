@@ -1,0 +1,165 @@
+<!-- =========================
+Header v2
+===========================-->
+<header>
+  <div
+    data-ns-animate
+    data-direction="up"
+    data-offset="20"
+    class="header-two rounded-full lp:!max-w-[1290px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] min-[500px]:max-w-[450px] min-[425px]:max-w-[380px] max-w-[350px] mx-auto w-full fixed left-1/2 -translate-x-1/2 z-50 top-14 flex items-center justify-between px-2.5 xl:py-0 py-2.5 {=$class}"
+  >
+    <div>
+      <a href="./">
+        <span class="sr-only">Home</span>
+        <figure class="lg:max-w-[198px] lg:block hidden">
+          <img src="./images/shared/dark-logo.svg" alt="NextSaaS" />
+        </figure>
+        <figure class="max-w-[44px] lg:hidden block">
+          <img src="./images/shared/logo.svg" alt="NextSaaS" class="w-full dark:hidden block" />
+          <img
+            src="./images/shared/logo-dark.svg"
+            alt="NextSaaS"
+            class="w-full dark:block hidden"
+          />
+        </figure>
+      </a>
+    </div>
+    <nav class="hidden xl:flex items-center">
+      <ul class="flex items-center gap-6">
+        <li class="relative nav-item cursor-pointer py-5 group" data-menu="home-mega-menu">
+          <a href="#" class="nav-item-link-white {=$nav-item-class}">
+            <span>Home</span>
+            <span class="nav-arrow block origin-center transition-all duration-300 translate-y-px">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </span>
+          </a>
+          <Component src="src/components/shared/home-mega-menu.htm" class="{=$mega-menu-color}" />
+        </li>
+        <li class="relative nav-item cursor-pointer py-5 group" data-menu="pages-mega-menu">
+          <a href="#" class="nav-item-link-white {=$nav-item-class}">
+            <span>Pages</span>
+            <span class="nav-arrow block origin-center transition-all duration-300 translate-y-px">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </span>
+          </a>
+          <Component src="src/components/shared/pages-mega-menu.htm" class="{=$mega-menu-color}" />
+        </li>
+        <li class="relative nav-item cursor-pointer py-5 group" data-menu="about-menu">
+          <a href="#" class="nav-item-link-white {=$nav-item-class}">
+            <span>About</span>
+            <span class="nav-arrow block origin-center transition-all duration-300 translate-y-px">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </span>
+          </a>
+          <Component src="src/components/shared/about-menu.htm" />
+        </li>
+        <li class="relative nav-item cursor-pointer py-5 group" data-menu="services-menu">
+          <a href="#" class="nav-item-link-white {=$nav-item-class}">
+            <span>Services</span>
+            <span class="nav-arrow block origin-center transition-all duration-300 translate-y-px">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </span>
+          </a>
+          <Component src="src/components/shared/services-menu.htm" />
+        </li>
+        <li class="relative nav-item cursor-pointer py-5 group" data-menu="blog-menu">
+          <a href="#" class="nav-item-link-white {=$nav-item-class}">
+            <span>Blog</span>
+            <span class="nav-arrow block origin-center transition-all duration-300 translate-y-px">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </span>
+          </a>
+          <Component src="src/components/shared/blog-menu.htm" />
+        </li>
+        <li class="py-5 group">
+          <a href="./contact-us-page.html" class="nav-item-link-white {=$nav-item-class}">
+            Contact Us
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="flex items-center gap-2">
+      <div class="sm:flex items-center hidden">
+        <a href="./signup-page-01.html" class="header-btn btn btn-md {=$btn-class}">
+          <span>Get started</span>
+        </a>
+      </div>
+      <div class="xl:hidden block">
+        <button
+          class="nav-hamburger flex flex-col gap-[5px] size-12 bg-background-4 dark:bg-background-6 rounded-full items-center justify-center cursor-pointer"
+        >
+          <span class="sr-only">Menu</span>
+          <span class="block w-6 h-0.5 bg-stroke-9 dark:bg-stroke-1"></span>
+          <span class="block w-6 h-0.5 bg-stroke-9 dark:bg-stroke-1"></span>
+          <span class="block w-6 h-0.5 bg-stroke-9 dark:bg-stroke-1"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <Component src="src/components/shared/mobile-menu.htm" />
+</header>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <Component src="src/components/shared/head-links.htm" />
+    <title>Testimonial page 02 - NextSaaS</title>
+  </head>
+  <body class="bg-background-3 dark:bg-background-7">
+    <Component
+      src="src/components/shared/header-one.htm"
+      class="border border-stroke-2 bg-accent/60 top-5 dark:border-stroke-6 dark:bg-background-9 backdrop-blur-[25px]"
+      btn-class="btn-primary hover:btn-secondary dark:hover:btn-accent"
+      mega-menu-color="!bg-background-4 dark:!bg-background-9"
+    />
+    <main>
+      <Component
+        src="src/components/shared/page-hero.htm"
+        class="bg-background-1 dark:bg-background-9"
+        title="Home - Testimonial 2"
+        heading="Testimonial"
+      />
+      <Component src="src/components/pages/testimonial-02/testimonial.htm" />
+      <Component src="src/components/pages/testimonial-02/testimonial-marquee.htm" />
+      <Component src="src/components/pages/testimonial-02/experience.htm" />
+      <Component src="src/components/pages/testimonial-02/integration.htm" />
+
+      <Component
+        src="src/components/shared/cta/cta-v1.htm"
+        class="dark:bg-background-6 bg-white"
+        badge-class="badge-cyan"
+        badge-text="Get started"
+        span-text="assistance"
+        cta-heading="Build a complete website using the"
+        description="Start your free trial today and see your ideas come to life easily and creatively."
+        cta-btn-text="Get started"
+        btn-class="hover:btn-secondary dark:hover:btn-accent"
+      />
+    </main>
+    <Component src="src/components/shared/footer-one.htm" />
+  </body>
+</html>

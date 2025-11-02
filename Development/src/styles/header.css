@@ -1,0 +1,87 @@
+/* =========================
+Navbar Styles
+=========================== */
+
+.nav-item-link {
+  @apply flex items-center gap-1 px-4 py-2 border border-transparent group-hover/nav:border-stroke-2 group-hover/nav:dark:border-stroke-7 rounded-full group-hover/nav:bg-accent/20 group-hover/nav:dark:bg-transparent text-tagline-1 font-normal text-secondary/60 group-hover/nav:text-secondary dark:text-accent/60 group-hover/nav:dark:text-accent transition-all duration-200;
+}
+
+.nav-item-link-border {
+  @apply flex items-center gap-1 h-full relative text-tagline-1 font-normal text-secondary/60 group-hover/nav:text-secondary group-hover/nav:dark:text-accent dark:text-accent transition-all duration-200 overflow-hidden before:absolute before:bottom-0 before:left-0 before:h-px before:w-full before:origin-right before:scale-x-0 before:transition-transform before:duration-500 before:content-[''] hover:before:origin-left hover:before:scale-x-100 dark:before:bg-white before:bg-secondary;
+}
+
+.nav-item-link-white {
+  @apply flex items-center gap-1 h-full relative text-tagline-1 font-normal group-hover/nav:text-accent text-accent transition-all duration-200 before:absolute before:content-[''] before:bottom-0 before:left-0 before:h-px before:w-0 group-hover/nav:before:bg-accent before:transition-all before:duration-300 group-hover/nav:before:w-full;
+}
+
+.nav-item-link-light {
+  @apply flex items-center gap-1 px-4 py-2 border border-transparent group-hover/nav:border-stroke-1 group-hover/nav:dark:border-transparent rounded-full group-hover/nav:bg-accent/20 group-hover/nav:dark:bg-secondary/20 text-tagline-1 font-normal text-accent/60 group-hover/nav:text-accent dark:text-accent/60 group-hover/nav:dark:text-accent transition-all duration-200;
+}
+
+/* =========================
+Sidebar and header animations
+=========================== */
+
+/* Sidebar states */
+.show-sidebar {
+  @apply translate-x-0;
+}
+
+.hide-sidebar {
+  @apply translate-x-full;
+}
+
+/* Menu states */
+.active-menu {
+  @apply text-secondary font-medium dark:text-accent;
+}
+
+/* Header scroll states */
+
+/* Cookie-based positioning (default states) */
+.is-cookie-true {
+  @apply top-13.5;
+}
+
+.is-cookie-false {
+  @apply top-5;
+}
+
+/* ==========TOP NAVIGATION COOKIE SUPPORT ========== */
+/* Hide top navs by default show only after JavaScript loads */
+.top-nav {
+  @apply hidden;
+}
+
+.top-nav.visible {
+  @apply block;
+}
+
+.top-nav.hidden {
+  @apply hidden;
+}
+
+/* Scroll state overrides cookie positioning */
+.scroll-header {
+  @apply !top-2 transition-all duration-300 ease-in-out;
+}
+
+.header-two-scroll {
+  @apply bg-background-7 top-4;
+}
+
+.header-three-scroll {
+  @apply px-0;
+}
+
+.header-four-scroll {
+  @apply backdrop-blur-3xl bg-black/40 dark:bg-transparent px-5;
+}
+
+.header-five-scroll {
+  @apply bg-background-1 backdrop-blur-[15px] dark:bg-background-5 top-4;
+}
+
+.header-six-scroll {
+  @apply top-6 md:top-7 lg:top-5 bg-background-7;
+}

@@ -1,0 +1,130 @@
+<!-- =========================
+Login hero v1 section
+===========================-->
+<section class="lg:pt-[180px] pt-[120px] lg:pb-[100px] pb-[70px]">
+  <div class="main-container">
+    <div
+      data-ns-animate
+      data-delay="0.1"
+      class="max-w-[400px] mx-auto bg-background-1 dark:bg-background-6 rounded-[20px] py-14 px-8"
+    >
+      <form class="mb-6">
+        <fieldset class="space-y-2 mb-4">
+          <label
+            for="email"
+            class="block text-tagline-2 font-medium text-secondary dark:text-accent select-none"
+          >
+            Your email
+          </label>
+          <input type="email" id="email" class="auth-form-input" placeholder="Email address" />
+        </fieldset>
+        <fieldset class="space-y-2 mb-3">
+          <label
+            for="password"
+            class="block text-tagline-2 font-medium text-secondary dark:text-accent select-none"
+          >
+            Password
+          </label>
+          <input
+            type="password"
+            id="password"
+            class="auth-form-input"
+            placeholder="At least 8 characters"
+          />
+        </fieldset>
+        <div class="flex items-center justify-between">
+          <div>
+            <label class="inline-flex items-center gap-2 cursor-pointer">
+              <input type="checkbox" name="terms" required class="peer sr-only" />
+              <span
+                class="size-5 rounded-full border border-stroke-3 dark:border-stroke-7 relative after:absolute after:size-3 after:bg-primary-500 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:opacity-0 peer-checked:after:opacity-100 peer-checked:border-primary-500 cursor-pointer"
+              ></span>
+              <span class="text-tagline-2 text-secondary font-medium select-none dark:text-accent">
+                Remember me
+              </span>
+            </label>
+          </div>
+          <div>
+            <a href="#" class="text-tagline-2 text-secondary font-medium underline dark:text-accent"
+              >Forgot password?</a
+            >
+          </div>
+        </div>
+        <div class="mt-8">
+          <button
+            type="submit"
+            class="btn btn-md btn-primary hover:btn-secondary dark:hover:btn-accent w-full before:content-none first-letter:uppercase"
+          >
+            Log In
+          </button>
+        </div>
+      </form>
+      <div>
+        <p
+          class="text-center text-tagline-2 text-secondary font-normal flex items-center justify-center gap-1 dark:text-accent"
+        >
+          Not registered yet?
+          <a href="#" class="text-tagline-1 font-medium footer-link-v2">Create an Account </a>
+        </p>
+        <div class="py-8 text-center">
+          <p class="text-tagline-2 font-normal text-secondary dark:text-accent">Or</p>
+        </div>
+        <div class="space-y-4">
+          <button
+            class="flex items-center justify-center gap-2 w-full border border-stroke-3 py-3 px-8 rounded-full cursor-pointer dark:border-stroke-7 hover:bg-primary-500 group transition-colors duration-500 ease-in-out"
+          >
+            <span class="size-6 block">
+              <img src="images/icons/google.svg" alt="google" class="size-full" />
+            </span>
+            <span
+              class="text-tagline-2 font-medium text-secondary dark:text-accent group-hover:text-accent transition-colors duration-500 ease-in-out"
+            >
+              Continue with Google
+            </span>
+          </button>
+          <button
+            class="flex items-center justify-center gap-2 w-full border border-stroke-3 py-3 px-8 rounded-full cursor-pointer dark:border-stroke-7 hover:bg-primary-500 group transition-colors duration-500 ease-in-out"
+          >
+            <span class="size-6 block">
+              <img src="images/icons/facebook-v2.svg" alt="facebook" class="size-full" />
+            </span>
+            <span
+              class="text-tagline-2 font-medium text-secondary dark:text-accent group-hover:text-accent transition-colors duration-500 ease-in-out"
+            >
+              Continue with facebook
+            </span>
+          </button>
+          <button
+            class="flex items-center justify-center gap-2 w-full border border-stroke-3 py-3 px-8 rounded-full cursor-pointer dark:border-stroke-7 hover:bg-primary-500 group transition-colors duration-500 ease-in-out"
+          >
+            <span class="size-6 block">
+              <img src="images/icons/apple.svg" alt="apple" class="size-full dark:hidden" />
+              <img
+                src="images/icons/apple-dark.svg"
+                alt="apple"
+                class="size-full hidden dark:block"
+              />
+            </span>
+            <span
+              class="text-tagline-2 font-medium text-secondary dark:text-accent group-hover:text-accent transition-colors duration-500 ease-in-out"
+            >
+              Continue with apple
+            </span>
+          </button>
+          <button
+            class="flex items-center justify-center gap-2 w-full border border-stroke-3 py-3 px-8 rounded-full cursor-pointer dark:border-stroke-7 hover:bg-primary-500 group transition-colors duration-500 ease-in-out"
+          >
+            <span class="size-6 block">
+              <img src="images/icons/microsoft.svg" alt="microsoft" class="size-full" />
+            </span>
+            <span
+              class="text-tagline-2 font-medium text-secondary dark:text-accent group-hover:text-accent transition-colors duration-500 ease-in-out"
+            >
+              Continue with microsoft
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

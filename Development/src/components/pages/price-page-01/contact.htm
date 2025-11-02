@@ -1,0 +1,98 @@
+<!-- =========================
+Contact section
+===========================-->
+<section
+  class="pt-14 md:pt-16 lg:pt-[88px] xl:pt-[200px] pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px]"
+>
+  <div class="main-container space-y-[70px]">
+    <div class="text-center max-w-[650px] mx-auto space-y-5">
+      <span data-ns-animate data-delay="0.2" class="badge badge-cyan">Contact</span>
+      <div class="space-y-3">
+        <h2 data-ns-animate data-delay="0.3">Let us know how we can assist you</h2>
+      </div>
+    </div>
+    <!-- contact form  -->
+    <div
+      data-ns-animate
+      data-delay="0.4"
+      class="p-6 lg:p-[42px] bg-white dark:bg-background-8 rounded-[20px] max-w-[850px] mx-auto md:w-full"
+    >
+      <form action="/index.html" method="post">
+        <!-- name field  -->
+        <fieldset class="w-full flex flex-col gap-2 items-start justify-start mb-8">
+          <label for="fullName" class="text-tagline-1 text-secondary font-medium dark:text-accent"
+            >Full Name</label
+          >
+          <input
+            type="text"
+            name="fullName"
+            id="fullName"
+            required
+            placeholder="Enter your name"
+            class="rounded-full dark:text-accent placeholder:text-tagline-1 dark:placeholder:text-accent/60 dark:bg-background-6 border border-stroke-3 dark:border-stroke-7 w-full px-[18px] py-3 focus-visible:outline focus-visible:outline-primary-500 placeholder:font-normal font-normal"
+            aria-required="true"
+          />
+        </fieldset>
+
+        <!-- email field  -->
+        <fieldset class="w-full flex flex-col gap-2 items-start justify-start mb-8">
+          <label
+            for="emailAddress"
+            class="text-tagline-1 text-secondary font-medium dark:text-accent"
+            >Email address</label
+          >
+          <input
+            type="email"
+            required
+            name="emailAddress"
+            id="emailAddress"
+            placeholder="Enter your email"
+            class="rounded-full dark:text-accent placeholder:text-tagline-1 dark:placeholder:text-accent/60 dark:bg-background-6 border border-stroke-3 dark:border-stroke-7 w-full px-[18px] py-3 focus-visible:outline focus-visible:outline-primary-500 placeholder:font-normal font-normal"
+            aria-required="true"
+          />
+        </fieldset>
+
+        <!-- message field  -->
+        <fieldset class="w-full flex flex-col gap-2 items-start justify-start mb-4">
+          <label for="messages" class="text-tagline-1 text-secondary font-medium dark:text-accent"
+            >Message</label
+          >
+          <textarea
+            name="messages"
+            id="messages"
+            required
+            placeholder="Enter your message"
+            class="rounded-xl placeholder:text-tagline-1 dark:placeholder:text-accent/60 dark:bg-background-6 border border-stroke-3 dark:border-stroke-7 w-full px-[18px] py-3 min-h-[120px] resize-none focus-visible:outline focus-visible:outline-primary-500 dark:text-accent placeholder:font-normal font-normal"
+            aria-required="true"
+          ></textarea>
+        </fieldset>
+
+        <!-- terms and conditions checkbox -->
+        <fieldset class="flex items-center gap-2 mb-4">
+          <label for="agree-terms" class="flex items-center gap-x-3">
+            <input id="agree-terms" type="checkbox" class="sr-only peer" required />
+            <span
+              class="size-4 rounded-full border border-stroke-3 dark:border-stroke-7 relative after:absolute after:size-2.5 after:bg-primary-500 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:opacity-0 peer-checked:after:opacity-100 peer-checked:border-primary-500 cursor-pointer"
+            ></span>
+          </label>
+          <label
+            for="agree-terms"
+            class="text-tagline-3 cursor-pointer text-secondary/60 dark:text-accent/60"
+          >
+            I agree with the
+            <a href="#" class="text-primary-500 underline text-tagline-3">terms and conditions</a>
+          </label>
+        </fieldset>
+
+        <!-- submit button -->
+        <button
+          type="submit"
+          class="btn btn-secondary dark:btn-accent hover:btn-primary btn-md w-full before:content-none first-letter:uppercase"
+          aria-label="Submit contact form"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</section>

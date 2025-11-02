@@ -1,0 +1,67 @@
+<!-- =========================
+Header v1
+===========================-->
+<header>
+  <div
+    class="header-one opacity-0 rounded-full lp:!max-w-[1290px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] min-[500px]:max-w-[450px] min-[425px]:max-w-[375px] max-w-[350px] mx-auto w-full fixed left-1/2 -translate-x-1/2 z-50 flex items-center justify-between px-2.5 xl:py-0 py-2.5 {=$class}"
+    data-ns-animate
+    data-direction="up"
+    data-offset="100"
+  >
+    <div>
+      <a href="./index.html">
+        <span class="sr-only">Home</span>
+        <figure class="lg:max-w-[110px] lg:block hidden">
+          <img
+            src="./images/icons/logo_mss_group_senzadicitura.png"
+            alt="MSS Group"
+            class="w-full h-auto object-contain"
+          />
+        </figure>
+        <figure class="max-w-[48px] lg:hidden block">
+          <img
+            src="./images/icons/logo_mss_group_senzadicitura.png"
+            alt="MSS Group"
+            class="w-full h-auto object-contain"
+          />
+        </figure>
+      </a>
+    </div>
+    <nav class="hidden xl:flex items-center">
+      <ul class="flex items-center gap-6">
+        <li class="py-2.5">
+          <a href="./index.html" class="nav-item-link {=$nav-item-class}">
+            <span>Home</span>
+          </a>
+        </li>
+        <li class="py-2.5">
+          <a href="./about-page-01.html" class="nav-item-link {=$nav-item-class}">
+            <span>Chi siamo</span>
+          </a>
+        </li>
+        <li class="py-2.5">
+          <a href="./faq-page.html" class="nav-item-link {=$nav-item-class}">
+            <span>FAQ</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="xl:flex hidden items-center justify-center">
+      <a href="./contact-us-page.html" class="btn btn-md {=$btn-class}">
+        <span>Contattaci</span>
+      </a>
+    </div>
+    <div class="xl:hidden block">
+      <button
+        class="nav-hamburger flex flex-col gap-[5px] size-12 bg-background-4 dark:bg-background-6 rounded-full items-center justify-center cursor-pointer"
+      >
+        <span class="sr-only">Menu</span>
+        <span class="block w-6 h-0.5 bg-stroke-9 dark:bg-stroke-1"></span>
+        <span class="block w-6 h-0.5 bg-stroke-9 dark:bg-stroke-1"></span>
+        <span class="block w-6 h-0.5 bg-stroke-9 dark:bg-stroke-1"></span>
+      </button>
+    </div>
+  </div>
+  <Component src="src/components/shared/mobile-menu.htm" />
+</header>

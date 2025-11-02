@@ -1,0 +1,34 @@
+# Query: Oltre 10 anni di esperienza nel mondo IT
+# ContextLines: 1
+
+6 results - 6 files
+
+Development\dist\about-page-01.html:
+  292      <div class="mb-14 md:mb-[70px] space-y-3 text-center">
+  293:       <h2 data-ns-animate data-delay="0.2">Oltre 10 anni di esperienza nel mondo IT</h2>
+  294        <p data-ns-animate data-delay="0.3" class="max-w-[744px] mx-auto">
+
+Development\src\components\pages\about-page-01\our-success.htm:
+  10      <div class="mb-14 md:mb-[70px] space-y-3 text-center">
+  11:       <h2 data-ns-animate data-delay="0.2">Oltre 10 anni di esperienza nel mondo IT</h2>
+  12        <p data-ns-animate data-delay="0.3" class="max-w-[744px] mx-auto">
+
+Development\src\components\pages\our-team-01\experience.htm:
+   9        <div class="space-y-3">
+  10:         <h2 data-ns-animate data-delay="0.1">Oltre 10 anni di esperienza nel mondo IT</h2>
+  11          <p data-ns-animate data-delay="0.2" class="max-w-[744px] mx-auto">
+
+Development\src\components\pages\testimonial-02\experience.htm:
+  7        <div class="space-y-3 text-center" data-ns-animate data-delay="0.2" data-instant>
+  8:         <h2 data-ns-animate data-delay="0.">Ore 10 anni di esperienza nel mondo IT</h2>
+  9          <p data-ns-animate data-delay="0.3" class="max-w-[798px] md:w-full mx-auto">
+
+Production\our-team-page-01.html:
+  5603        <div class="space-y-3">
+  5604:         <h2 data-ns-animate data-delay="0.1">Oltre 10 anni di esperienza nel mondo IT</h2>
+  5605          <p data-ns-animate data-delay="0.2" class="max-w-[744px] mx-auto">
+
+Production\testimonial-page-02.html:
+  4160        <div class="space-y-3 text-center" data-ns-animate data-delay="0.2" data-instant>
+  4161:         <h2 data-ns-animate data-delay="0.2">Oltre 10 anni di esperienza nel mondo IT</h2>
+  4162          <p data-ns-animate data-delay="0.3" class="max-w-[798px] md:w-full mx-auto">

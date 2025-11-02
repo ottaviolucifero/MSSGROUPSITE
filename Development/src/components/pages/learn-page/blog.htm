@@ -1,0 +1,646 @@
+<!-- =========================
+Blog section
+===========================-->
+<section
+  data-ns-animate
+  data-delay="0.1"
+  class="bg-background-2 dark:bg-background-6 py-14 md:py-[100px]"
+>
+  <div class="main-container">
+    <!-- show after md devices  -->
+    <div
+      role="tablist"
+      class="section-reveal tab-bar hidden md:flex justify-center items-center border-b border-stroke-2 dark:border-stroke-6 relative"
+    >
+      <!-- active-tab-bar  -->
+      <div class="active-tab-bar"></div>
+
+      <button
+        class="py-3 cursor-pointer focus-visible:outline-0 px-10 -mb-px data-[state=selected]:text-secondary text-secondary/60 dark:data-[state=selected]:text-accent dark:text-accent/60"
+      >
+        <span class="text-tagline-1 font-medium">All</span>
+      </button>
+      <button
+        class="py-3 cursor-pointer focus-visible:outline-0 px-10 -mb-px data-[state=selected]:text-secondary text-secondary/60 dark:data-[state=selected]:text-accent dark:text-accent/60"
+      >
+        <span class="text-tagline-1 font-medium">Finance</span>
+      </button>
+      <button
+        class="py-3 cursor-pointer focus-visible:outline-0 px-10 -mb-px data-[state=selected]:text-secondary text-secondary/60 dark:data-[state=selected]:text-accent dark:text-accent/60"
+      >
+        <span class="text-tagline-1 font-medium">Crypto</span>
+      </button>
+      <button
+        class="py-3 cursor-pointer focus-visible:outline-0 px-10 -mb-px data-[state=selected]:text-secondary text-secondary/60 dark:data-[state=selected]:text-accent dark:text-accent/60"
+      >
+        <span class="text-tagline-1 font-medium">AI Software</span>
+      </button>
+      <button
+        class="py-3 cursor-pointer focus-visible:outline-0 px-10 -mb-px data-[state=selected]:text-secondary text-secondary/60 dark:data-[state=selected]:text-accent dark:text-accent/60"
+      >
+        <span class="text-tagline-1 font-medium">Investment</span>
+      </button>
+      <button
+        class="py-3 cursor-pointer focus-visible:outline-0 px-10 -mb-px data-[state=selected]:text-secondary text-secondary/60 dark:data-[state=selected]:text-accent dark:text-accent/60"
+      >
+        <span class="text-tagline-1 font-medium">Design</span>
+      </button>
+    </div>
+
+    <!-- mobile  -->
+    <div class="section-reveal flex items-center flex-wrap md:hidden gap-4">
+      <button
+        class="px-3.5 py-2 min-w-16 cursor-pointer text-tagline-2 font-medium text-secondary/60 dark:text-accent/60 border border-stroke-2 dark:border-stroke-7 rounded-full dark:bg-background-7"
+      >
+        All
+      </button>
+      <button
+        class="px-3.5 py-2 min-w-16 cursor-pointer text-tagline-2 font-medium text-secondary/60 dark:text-accent/60 border border-stroke-2 dark:border-stroke-7 rounded-full dark:bg-background-7"
+      >
+        Finance
+      </button>
+      <button
+        class="px-3.5 py-2 min-w-16 cursor-pointer text-tagline-2 font-medium text-secondary/60 dark:text-accent/60 border border-stroke-2 dark:border-stroke-7 rounded-full dark:bg-background-7"
+      >
+        Crypto
+      </button>
+      <button
+        class="px-3.5 py-2 min-w-16 cursor-pointer text-tagline-2 font-medium text-secondary/60 dark:text-accent/60 border border-stroke-2 dark:border-stroke-7 rounded-full dark:bg-background-7 text-nowrap"
+      >
+        AI Software
+      </button>
+      <button
+        class="px-3.5 py-2 min-w-16 cursor-pointer text-tagline-2 font-medium text-secondary/60 dark:text-accent/60 border border-stroke-2 dark:border-stroke-7 rounded-full dark:bg-background-7"
+      >
+        Investment
+      </button>
+      <button
+        class="px-3.5 py-2 min-w-16 cursor-pointer text-tagline-2 font-medium text-secondary/60 dark:text-accent/60 border border-stroke-2 dark:border-stroke-7 rounded-md dark:bg-background-7"
+      >
+        Design
+      </button>
+    </div>
+
+    <div class="grid grid-cols-12 sm:gap-5 md:gap-8 gap-y-6 mt-20">
+      <!-- blog one  -->
+      <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+        <article
+          class="bg-white dark:bg-background-5 rounded-[20px] overflow-hidden border border-stroke-4 dark:border-stroke-5 max-w-[500px] mx-auto md:mx-0 md:max-w-full"
+        >
+          <figure>
+            <img
+              src="images/blogs/blog-01.png"
+              alt="Abstract blurred for Crypto product tour"
+              loading="lazy"
+              class="w-full h-full object-cover"
+            />
+          </figure>
+          <div class="p-6 space-y-6">
+            <div class="flex items-center xl:gap-6 gap-3.5">
+              <span class="badge badge-green">Finance</span>
+              <span class="flex items-center gap-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="21"
+                  height="20"
+                  viewBox="0 0 21 20"
+                  fill="none"
+                >
+                  <path
+                    d="M10.5 17.5C14.6421 17.5 18 14.1421 18 10C18 5.85786 14.6421 2.5 10.5 2.5C6.35786 2.5 3 5.85786 3 10C3 14.1421 6.35786 17.5 10.5 17.5Z"
+                    class="stroke-secondary dark:stroke-accent"
+                    stroke-miterlimit="10"
+                  />
+                  <path
+                    d="M10.5 5.625V10H14.875"
+                    class="stroke-secondary dark:stroke-accent"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span
+                  class="text-tagline-3 font-normal text-secondary dark:text-accent whitespace-nowrap"
+                >
+                  25 Hours
+                </span>
+              </span>
+              <span class="flex items-center gap-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="21"
+                  height="20"
+                  viewBox="0 0 21 20"
+                  fill="none"
+                >
+                  <path
+                    d="M4.25 16.875C4.25 16.3777 4.44754 15.9008 4.79917 15.5492C5.15081 15.1975 5.62772 15 6.125 15H16.75V2.5H6.125C5.62772 2.5 5.15081 2.69754 4.79917 3.04917C4.44754 3.40081 4.25 3.87772 4.25 4.375V16.875Z"
+                    class="stroke-secondary dark:stroke-accent"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M4.25 16.875V17.5H15.5"
+                    class="stroke-secondary dark:stroke-accent"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span
+                  class="text-tagline-3 font-normal text-secondary dark:text-accent whitespace-nowrap"
+                >
+                  25 Hours
+                </span>
+              </span>
+            </div>
+            <div class="space-y-2">
+              <p class="xl:text-heading-5 text-heading-6 text-secondary dark:text-accent">
+                Getting started guide
+              </p>
+              <p class="line-clamp-2">
+                A step-by-step walkthrough of how to set up your workspace and get your first
+                results.
+              </p>
+            </div>
+            <div>
+              <a
+                href="#"
+                class="btn hover:btn-secondary dark:hover:btn-accent dark:btn-transparent btn-white btn-md"
+              >
+                <span>Read more</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- blog two  -->
+      <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+        <div>
+          <article
+            class="bg-white dark:bg-background-5 rounded-[20px] overflow-hidden border border-stroke-4 dark:border-stroke-5 max-w-[500px] mx-auto md:mx-0 md:max-w-full"
+          >
+            <figure>
+              <img
+                src="images/blogs/blog-32.png"
+                alt="Abstract blurred for Crypto product tour"
+                loading="lazy"
+                class="w-full h-full object-cover"
+              />
+            </figure>
+            <div class="p-6 space-y-6">
+              <div class="flex items-center xl:gap-6 gap-3.5">
+                <span class="badge badge-green">Crypto</span>
+                <span class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M10.5 17.5C14.6421 17.5 18 14.1421 18 10C18 5.85786 14.6421 2.5 10.5 2.5C6.35786 2.5 3 5.85786 3 10C3 14.1421 6.35786 17.5 10.5 17.5Z"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-miterlimit="10"
+                    />
+                    <path
+                      d="M10.5 5.625V10H14.875"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span
+                    class="text-tagline-3 font-normal text-secondary dark:text-accent whitespace-nowrap"
+                  >
+                    25 Hours
+                  </span>
+                </span>
+                <span class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.25 16.875C4.25 16.3777 4.44754 15.9008 4.79917 15.5492C5.15081 15.1975 5.62772 15 6.125 15H16.75V2.5H6.125C5.62772 2.5 5.15081 2.69754 4.79917 3.04917C4.44754 3.40081 4.25 3.87772 4.25 4.375V16.875Z"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4.25 16.875V17.5H15.5"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span
+                    class="text-tagline-3 font-normal text-secondary dark:text-accent whitespace-nowrap"
+                  >
+                    25 Hours
+                  </span>
+                </span>
+              </div>
+              <div class="space-y-2">
+                <p class="xl:text-heading-5 text-heading-6 text-secondary dark:text-accent">
+                  Product tour
+                </p>
+                <p class="line-clamp-2">
+                  A visual overview of everything you can do inside NextSaaS.
+                </p>
+              </div>
+              <div>
+                <a
+                  href="#"
+                  class="btn hover:btn-secondary dark:hover:btn-accent dark:btn-transparent btn-white btn-md"
+                >
+                  <span>Read more</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- blog three  -->
+      <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+        <div>
+          <article
+            class="bg-white dark:bg-background-5 rounded-[20px] overflow-hidden border border-stroke-4 dark:border-stroke-5 max-w-[500px] mx-auto md:mx-0 md:max-w-full"
+          >
+            <figure>
+              <img
+                src="images/blogs/blog-33.png"
+                alt="Modern office with colorful dashboard lines for Finance dashboard"
+                loading="lazy"
+                class="w-full h-full object-cover"
+              />
+            </figure>
+            <div class="p-6 space-y-6">
+              <div class="flex items-center xl:gap-6 gap-3.5">
+                <span class="badge badge-green">Finance</span>
+                <span class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M10.5 17.5C14.6421 17.5 18 14.1421 18 10C18 5.85786 14.6421 2.5 10.5 2.5C6.35786 2.5 3 5.85786 3 10C3 14.1421 6.35786 17.5 10.5 17.5Z"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-miterlimit="10"
+                    />
+                    <path
+                      d="M10.5 5.625V10H14.875"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span
+                    class="text-tagline-3 font-normal text-secondary dark:text-accent whitespace-nowrap"
+                  >
+                    25 Hours
+                  </span>
+                </span>
+                <span class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.25 16.875C4.25 16.3777 4.44754 15.9008 4.79917 15.5492C5.15081 15.1975 5.62772 15 6.125 15H16.75V2.5H6.125C5.62772 2.5 5.15081 2.69754 4.79917 3.04917C4.44754 3.40081 4.25 3.87772 4.25 4.375V16.875Z"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4.25 16.875V17.5H15.5"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span
+                    class="text-tagline-3 font-normal text-secondary dark:text-accent whitespace-nowrap"
+                  >
+                    25 Hours
+                  </span>
+                </span>
+              </div>
+              <div class="space-y-2">
+                <p class="xl:text-heading-5 text-heading-6 text-secondary dark:text-accent">
+                  Setting up your dashboard
+                </p>
+                <p class="line-clamp-2">
+                  Customize your experience and create a system that works for you.
+                </p>
+              </div>
+              <div>
+                <a
+                  href="#"
+                  class="btn hover:btn-secondary dark:hover:btn-accent dark:btn-transparent btn-white btn-md"
+                >
+                  <span>Read more</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- blog four  -->
+      <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+        <div>
+          <article
+            class="bg-white dark:bg-background-5 rounded-[20px] overflow-hidden border border-stroke-4 dark:border-stroke-5 max-w-[500px] mx-auto md:mx-0 md:max-w-full"
+          >
+            <figure>
+              <img
+                src="images/blogs/blog-34.png"
+                alt="Abstract red and pink blurred for Design guide"
+                loading="lazy"
+                class="w-full h-full object-cover"
+              />
+            </figure>
+            <div class="p-6 space-y-6">
+              <div class="flex items-center xl:gap-6 gap-3.5">
+                <span class="badge badge-green">Design</span>
+                <span class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M10.5 17.5C14.6421 17.5 18 14.1421 18 10C18 5.85786 14.6421 2.5 10.5 2.5C6.35786 2.5 3 5.85786 3 10C3 14.1421 6.35786 17.5 10.5 17.5Z"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-miterlimit="10"
+                    />
+                    <path
+                      d="M10.5 5.625V10H14.875"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span
+                    class="text-tagline-3 font-normal text-secondary dark:text-accent whitespace-nowrap"
+                  >
+                    25 Hours
+                  </span>
+                </span>
+                <span class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.25 16.875C4.25 16.3777 4.44754 15.9008 4.79917 15.5492C5.15081 15.1975 5.62772 15 6.125 15H16.75V2.5H6.125C5.62772 2.5 5.15081 2.69754 4.79917 3.04917C4.44754 3.40081 4.25 3.87772 4.25 4.375V16.875Z"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4.25 16.875V17.5H15.5"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span
+                    class="text-tagline-3 font-normal text-secondary dark:text-accent whitespace-nowrap"
+                  >
+                    25 Hours
+                  </span>
+                </span>
+              </div>
+              <div class="space-y-2">
+                <p class="xl:text-heading-5 text-heading-6 text-secondary dark:text-accent">
+                  Getting started guide
+                </p>
+                <p class="line-clamp-2">
+                  A step-by-step walkthrough of how to set up your workspace and get your first
+                  results.
+                </p>
+              </div>
+              <div>
+                <a
+                  href="#"
+                  class="btn hover:btn-secondary dark:hover:btn-accent dark:btn-transparent btn-white btn-md"
+                >
+                  <span>Read more</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- blog five  -->
+      <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+        <div>
+          <article
+            class="bg-white dark:bg-background-5 rounded-[20px] overflow-hidden border border-stroke-4 dark:border-stroke-5 max-w-[500px] mx-auto md:mx-0 md:max-w-full"
+          >
+            <figure>
+              <img
+                src="images/blogs/blog-35.png"
+                alt="Abstract green and orange blurred for AI software product tour"
+                loading="lazy"
+                class="w-full h-full object-cover"
+              />
+            </figure>
+            <div class="p-6 space-y-6">
+              <div class="flex items-center xl:gap-6 gap-3.5">
+                <span class="badge badge-green">AI software</span>
+                <span class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M10.5 17.5C14.6421 17.5 18 14.1421 18 10C18 5.85786 14.6421 2.5 10.5 2.5C6.35786 2.5 3 5.85786 3 10C3 14.1421 6.35786 17.5 10.5 17.5Z"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-miterlimit="10"
+                    />
+                    <path
+                      d="M10.5 5.625V10H14.875"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span
+                    class="text-tagline-3 font-normal text-secondary dark:text-accent whitespace-nowrap"
+                  >
+                    25 Hours
+                  </span>
+                </span>
+                <span class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.25 16.875C4.25 16.3777 4.44754 15.9008 4.79917 15.5492C5.15081 15.1975 5.62772 15 6.125 15H16.75V2.5H6.125C5.62772 2.5 5.15081 2.69754 4.79917 3.04917C4.44754 3.40081 4.25 3.87772 4.25 4.375V16.875Z"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4.25 16.875V17.5H15.5"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span
+                    class="text-tagline-3 font-normal text-secondary dark:text-accent whitespace-nowrap"
+                  >
+                    25 Hours
+                  </span>
+                </span>
+              </div>
+              <div class="space-y-2">
+                <p class="xl:text-heading-5 text-heading-6 text-secondary dark:text-accent">
+                  Product tour
+                </p>
+                <p class="line-clamp-2">
+                  A visual overview of everything you can do inside NextSaaS.
+                </p>
+              </div>
+              <div>
+                <a
+                  href="#"
+                  class="btn hover:btn-secondary dark:hover:btn-accent dark:btn-transparent btn-white btn-md"
+                >
+                  <span>Read more</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- blog six  -->
+      <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+        <div>
+          <article
+            class="blog-item bg-white dark:bg-background-5 rounded-[20px] overflow-hidden border border-stroke-4 dark:border-stroke-5 max-w-[500px] mx-auto md:mx-0 md:max-w-full"
+          >
+            <figure>
+              <img
+                src="images/blogs/blog-36.png"
+                alt="Abstract green and gold blurred for Investment dashboard"
+                loading="lazy"
+                class="w-full h-full object-cover"
+              />
+            </figure>
+            <div class="p-6 space-y-6">
+              <div class="flex items-center xl:gap-6 gap-3.5">
+                <span class="badge badge-green">Investment</span>
+                <span class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M10.5 17.5C14.6421 17.5 18 14.1421 18 10C18 5.85786 14.6421 2.5 10.5 2.5C6.35786 2.5 3 5.85786 3 10C3 14.1421 6.35786 17.5 10.5 17.5Z"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-miterlimit="10"
+                    />
+                    <path
+                      d="M10.5 5.625V10H14.875"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span
+                    class="text-tagline-3 font-normal text-secondary dark:text-accent whitespace-nowrap"
+                  >
+                    25 Hours
+                  </span>
+                </span>
+                <span class="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.25 16.875C4.25 16.3777 4.44754 15.9008 4.79917 15.5492C5.15081 15.1975 5.62772 15 6.125 15H16.75V2.5H6.125C5.62772 2.5 5.15081 2.69754 4.79917 3.04917C4.44754 3.40081 4.25 3.87772 4.25 4.375V16.875Z"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4.25 16.875V17.5H15.5"
+                      class="stroke-secondary dark:stroke-accent"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <span
+                    class="text-tagline-3 font-normal text-secondary dark:text-accent whitespace-nowrap"
+                  >
+                    25 Hours
+                  </span>
+                </span>
+              </div>
+              <div class="space-y-2">
+                <p class="xl:text-heading-5 text-heading-6 text-secondary dark:text-accent">
+                  Setting up your dashboard
+                </p>
+                <p class="line-clamp-2">
+                  Customize your experience and create a system that works for you.
+                </p>
+              </div>
+              <div>
+                <a
+                  href="#"
+                  class="btn hover:btn-secondary dark:hover:btn-accent dark:btn-transparent btn-white btn-md"
+                >
+                  <span>Read more</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div data-ns-animate data-delay="0.2" class="text-center mt-14">
+      <a
+        href="./blog-page-01.html"
+        class="btn btn-secondary dark:btn-transparent hover:btn-primary btn-md"
+      >
+        <span>Explore the blog</span>
+      </a>
+    </div>
+  </div>
+</section>

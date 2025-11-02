@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <Component src="src/components/shared/head-links.htm" />
+    <title>Team Details - NextSaaS</title>
+  </head>
+  <body class="bg-background-3 dark:bg-background-7">
+    <Component
+      src="src/components/shared/header-one.htm"
+      class="bg-white/60 backdrop-blur-[25px] dark:border top-5 dark:border-stroke-7 dark:bg-background-7"
+      btn-class="btn-primary dark:hover:btn-accent"
+    />
+    <main>
+      <Component
+        src="src/components/shared/page-hero.htm"
+        title="Team - Team details"
+        heading="Team details"
+      />
+      <Component src="src/components/pages/team-details/details.htm" />
+      <Component src="src/components/pages/team-details/contact.htm" />
+      <Component src="src/components/pages/team-details/cta.htm" />
+    </main>
+    <Component src="src/components/shared/footer-three.htm" class="dark:!bg-background-6" />
+  </body>
+</html>

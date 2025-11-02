@@ -1,0 +1,113 @@
+<!-- =========================
+Contact section
+===========================-->
+<section id="contact" class="pt-[100px] pb-[200px]">
+  <div class="main-container">
+    <div class="space-y-[70px]">
+      <!-- heading  -->
+      <div class="main-w-[850px] md:w-full mx-auto text-center space-y-5">
+        <span data-ns-animate data-delay="0.2" class="badge badge-cyan">Contatti</span>
+        <div class="space-y-3">
+          <h2 id="contact-heading" data-ns-animate data-delay="0.3">Hai ancora domande?</h2>
+          <p data-ns-animate data-delay="0.4" class="max-w-[442px] sm:w-full mx-auto">
+            Se non trovi la risposta che cerchi, scrivici. Siamo qui per aiutarti!
+          </p>
+        </div>
+      </div>
+
+      <!-- form -->
+      <div
+        data-ns-animate
+        data-delay="0.5"
+        class="contact-form max-w-[850px] md:w-full mx-auto bg-white dark:bg-background-6 rounded-[20px] p-5 sm:p-[42px]"
+      >
+        <form data-contact-form data-endpoint="/api/contact" method="POST" novalidate>
+          <!-- full name -->
+          <div class="space-y-2 mb-8">
+            <label
+              for="fullname"
+              class="block text-tagline-1 text-secondary dark:text-accent font-medium"
+              >Nome e cognome</label
+            >
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              placeholder="Inserisci il tuo nome"
+              required
+              autocomplete="name"
+              class="w-full px-[18px] shadow-1 dark:text-accent dark:bg-background-6 py-2 rounded-full border border-stroke-3 dark:border-stroke-6 bg-background-1 text-tagline-1 dark:placeholder:text-accent/60 placeholder:text-secondary/60 focus:outline-none focus:border-primary-500 placeholder:text-tagline-1 placeholder:font-normal font-normal"
+            />
+          </div>
+
+          <!-- email -->
+          <div class="space-y-2 mb-8">
+            <label
+              for="email"
+              class="block text-tagline-1 text-secondary dark:text-accent font-medium"
+              >Indirizzo email</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Inserisci la tua email"
+              required
+              autocomplete="email"
+              class="w-full px-[18px] py-2 dark:text-accent rounded-full border dark:bg-background-6 border-stroke-3 dark:border-stroke-6 bg-background-1 text-tagline-1 dark:placeholder:text-accent/60 placeholder:text-secondary/60 focus:outline-none focus:border-primary-500 placeholder:text-tagline-1 placeholder:font-normal font-normal"
+            />
+          </div>
+
+          <!-- message -->
+          <div class="space-y-2 mb-4">
+            <label
+              for="message"
+              class="block text-tagline-1 text-secondary dark:text-accent font-medium"
+              >Messaggio</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Scrivi il tuo messaggio"
+              required
+              class="w-full px-[18px] py-2 rounded-xl dark:bg-background-6 border dark:text-accent border-stroke-3 dark:border-stroke-6 bg-background-1 text-tagline-1 dark:placeholder:text-accent/60 placeholder:text-secondary/60 focus:outline-none focus:border-primary-500 placeholder:text-tagline-1 placeholder:font-normal font-normal"
+            ></textarea>
+          </div>
+
+          <!-- honeypot -->
+          <input type="text" name="_hp" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
+
+          <!-- terms checkbox -->
+          <fieldset class="flex items-center gap-2 mb-4">
+            <label for="terms" class="flex items-center gap-x-3">
+              <input id="terms" type="checkbox" class="sr-only peer" required />
+              <span
+                class="size-4 rounded-full border border-stroke-3 dark:border-stroke-7 relative after:absolute after:size-2.5 after:bg-primary-500 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:opacity-0 peer-checked:after:opacity-100 peer-checked:border-primary-500 cursor-pointer"
+              ></span>
+            </label>
+            <label
+              for="terms"
+              class="text-tagline-3 text-secondary/60 dark:text-accent/60 cursor-pointer"
+            >
+              Accetto i
+              <a href="#" class="text-primary-500 underline text-tagline-3">termini e condizioni</a>
+            </label>
+          </fieldset>
+
+          <!-- messages -->
+          <p data-contact-success hidden class="text-green-600 text-sm mb-3">Messaggio inviato! Ti risponderemo al più presto.</p>
+          <p data-contact-error hidden class="text-red-600 text-sm mb-3">Si è verificato un errore. Riprova più tardi.</p>
+
+          <!-- submit button -->
+          <button
+            type="submit"
+            class="btn btn-md btn-black hover:btn-secondary dark:btn-black dark:hover:btn-accent w-full before:content-none first-letter:uppercase"
+          >
+            Contattaci
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

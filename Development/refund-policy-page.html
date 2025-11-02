@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <Component src="src/components/shared/head-links.htm" />
+    <title>Refund policy page - NextSaaS</title>
+  </head>
+  <body class="bg-background-3 dark:bg-background-7">
+    <Component
+      src="src/components/shared/header-one.htm"
+      class="border border-stroke-2 bg-accent/60 top-5 dark:border-stroke-6 dark:bg-background-9 backdrop-blur-[25px]"
+      btn-class="btn-primary hover:btn-secondary dark:hover:btn-accent"
+    />
+    <main>
+      <Component
+        src="src/components/shared/page-hero.htm"
+        class="pt-24 md:pt-36 lg:pt-40 xl:pt-[200px]"
+        title="Refund policy"
+        heading="Refund policy"
+      />
+      <Component src="src/components/pages/refund-policy-page/refund-guidelines.htm" />
+      <Component
+        src="src/components/shared/cta/cta-v1.htm"
+        class="dark:bg-background-5 bg-white"
+        badge-class="badge-yellow-v2"
+        badge-text="Get started"
+        span-class="hidden"
+        cta-heading="Ready to start earning with NextSaaS?"
+        description="If you have any questions, feel free to reach out to our team."
+        cta-btn-text="Get started"
+        btn-class="hover:btn-secondary dark:hover:btn-accent"
+      />
+    </main>
+
+    <Component src="src/components/shared/footer-three.htm" />
+  </body>
+</html>
